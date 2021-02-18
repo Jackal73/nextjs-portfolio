@@ -41,6 +41,6 @@ export const services: IService[] = [
         Icon: RiComputerLine,
         title:"Whatever",
         about:
-            "drffg erftggybv deessdr sccj ffnngj ffm,ngngjjm jgghhf.",
+            "drffg erftggybv deessdr sccj ffnngj ffm,ngngjjm jgghhf. Any <b>questions</b>?",
     },
 ]
