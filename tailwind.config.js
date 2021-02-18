@@ -12,6 +12,17 @@ module.exports = {
         },
       },
     },
+    borderWidth: {
+      DEFAULT: '1px',
+      '2': '2px',
+      '3': '3px',
+      '4': '4px',
+    },
+  },
+  variants: {
+    extend: {
+      borderWidth: ['hover', 'focus'],
+    },
   },
   plugins: [],
 }

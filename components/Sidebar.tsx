@@ -3,6 +3,7 @@ import {GiTie} from 'react-icons/gi'
 import {GoLocation} from 'react-icons/go'
 
 const Sidebar = () => {
+
     return (
         <>
             <img src="https://kbldesigners.com/images/Shawn_profile.jpg"
@@ -24,7 +25,7 @@ const Sidebar = () => {
 
             {/* //Social icon */}
             <div className="flex justify-around my-5 text-green w-9/12 md:w-full mx-auto">
-                <a href="#">
+                <a href="#" >
                     <AiFillGithub className="w-8 h-8 cursor-pointer"/>
                 </a>
                 <a href="#">
@@ -41,14 +42,14 @@ const Sidebar = () => {
                     <GoLocation />
                     <span>St. Louis, MO</span>
                 </div>
-                <p className="my-2">ShawnKebel@kbldevelopers.com</p>
+                <p className="my-2">skebel@kblDevelopers.com</p>
                 <p className="my-2">618-960-8989</p>
             </div>
 
             {/*Email button */}
             <button
                 className="bg-gradient-to-r from-green to-blue-400 w-8/12 rounded-full py-2 px-5 text-white my-2 focus:outline-none"
-                onClick={() => window.open('mailto:ShawnKebel@www.kbldevelopers.com')}>
+                onClick={() => window.open('mailto:skebel@www.kblDevelopers.com')}>
                 Email Me
             </button>
             <button className="bg-gradient-to-r from-green to-blue-400 w-8/12 rounded-full py-2 px-5 text-white my-2">Toggle Theme</button>
