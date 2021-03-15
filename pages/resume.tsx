@@ -10,26 +10,26 @@ const resume = () => {
                     <h5 className="my-3 text-2xl font-extrabold">Education</h5>
                     <div>
                         <h5 className="mt-4 text-xl font-extrabold">Web Technologies-Development</h5>
-                        <p className="font-bold">SouthWestern Illinois College (2019-2021)</p>
-                        <p className="my-1 font-italic">(Southern Illinois University - Edwardsville)</p>
+                        <p className="font-bold"><span className="text-green">||</span> SouthWestern Illinois College (2019-2021)</p>
+                        <p className="my-1 italic text-blue-400">(Southern Illinois University - Edwardsville)</p>
                     </div>
                     <div>
                         <h5 className="mt-2 text-xl font-extrabold">Computer Science Engineering</h5>
-                        <p className="font-bold mb-1">SouthWestern Illinois College (&rarr; 2015)</p>
-                        <p className="my-1 font-italic">(Missouri University of Science & Technology)</p>
+                        <p className="font-bold mb-1"><span className="text-green">||</span> SouthWestern Illinois College (&rarr; 2015)</p>
+                        <p className="my-1 italic text-blue-400">(Missouri University of Science & Technology)</p>
                     </div>
                 </div>
                 <div>
                     <h5 className="my-3 text-2xl font-extrabold">Experience</h5>
                     <div>
-                        <h5 className="mt-4 text-xl font-extrabold">Web & Mobile Applications Developer</h5>
-                        <p className="font-bold">|| kblDevelopers (2019 &rarr;)</p>
-                        <p className="my-1 font-italic">Started kblDevelopers providing Full Stack Development</p>
+                        <h5 className="mt-4 text-xl font-extrabold"> Full-Stack Web & Mobile Applications Developer</h5>
+                        <p className="font-bold"><span className="text-green">||</span> kblDesigners (2019 &rarr;)</p>
+                        <p className="my-1 italic text-blue-400">Created kblDesigners to revolutionize Full Stack Web & Mobile Development</p>
                     </div>
                     <div>
-                        <h5 className="mt-2 text-xl font-extrabold">Junior Web Designer</h5>
-                        <p className="font-bold mb-1">|| kblDesigners (2017-2019)</p>
-                        <p className="my-1 font-italic">Front-end development and breathtaking UI designs.</p>
+                        <h5 className="mt-2 text-xl font-extrabold"> Web Designer</h5>
+                        <p className="font-bold mb-1"><span className="text-green">||</span> kblDevelopers (2017-March2021)</p>
+                        <p className="my-1 italic text-blue-400">Front-end development with breathtaking UI designs.</p>
                     </div>
                 </div>
             </div>
