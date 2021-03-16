@@ -2,6 +2,7 @@ import { AiFillGithub, AiFillLinkedin, AiFillInstagram } from "react-icons/ai";
 import { GiTie } from "react-icons/gi";
 import { GoLocation } from "react-icons/go";
 import { useTheme } from "next-themes";
+import Image from "next/image";
 
 const Sidebar = () => {
   const { theme, setTheme } = useTheme();
@@ -17,8 +18,9 @@ const Sidebar = () => {
         alt="User Avatar"
         className="mx-auto border rounded-full"
         height="256px"
-        width="25px"
+        width="250px"
         layout="intrinsic"
+        quality="100"
       />
       <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan">
         <span className="text-green">Shawn </span>
