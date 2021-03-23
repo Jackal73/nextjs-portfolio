@@ -17,10 +17,10 @@ const Sidebar = () => {
         src="https://kbldesigners.com/images/Shawn_profile.jpg"
         alt="User Avatar"
         className="mx-auto border rounded-full"
-        height="256px"
-        width="250px"
-        layout="intrinsic"
+        height="206"
+        width="200"
         quality="100"
+        layout="intrinsic"
       />
       <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan">
         <span className="text-green">Shawn </span>
@@ -29,15 +29,17 @@ const Sidebar = () => {
       <p className="px-2 py-1 my-3 bg-gray-300 rounded dark:bg-dark-200 dark:bg-black-500">
         Web & Mobile Developer
       </p>
+
+      {/*Resume*/}
       <a
         className="px-2 py-1 my-2 bg-gray-200 dark:bg-dark-300 dark:bg-black-500 rounded-full flex items-center
                             justify-center cursor-pointer transform active:scale-95 hover:shadow-custom-light
                              dark:shadow-custom-dark"
-        href=""
-        download="name"
+        href="/images/blink.jpg"
+        download="blink.jpg"
       >
         <GiTie className="w-6 h-6" />
-        Download Resume
+        <span>Download Resume</span>
       </a>
 
       {/* //Social icon */}
